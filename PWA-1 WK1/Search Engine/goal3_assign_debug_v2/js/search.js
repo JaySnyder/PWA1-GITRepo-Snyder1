@@ -8,7 +8,7 @@
 	var resultsDIV = document.getElementById("results"),
 		searchInput = document.forms[0].search,
 		currentSearch = ''
-	;
+	;//Missing closing } bracket
 	
 	// Validates search query
 	var validqte == function(query)   //spelling error
