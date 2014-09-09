@@ -5,8 +5,8 @@
 (function(){  //this line seems good
 	
 	// Variable initialization (DO NOT FIX ANY OF THE BELOW VAR's)
-	var resultsDIV = document.getElementById("results"),
-		searchInput = document.forms[0].search,
+	var resultsDIV = document.getElementById("results"),//missing semicolon, camelcase?
+		searchInput = document.forms[0].search, //missing variable command & semicolon
 		currentSearch = ''
 	;//Missing closing } bracket
 	
