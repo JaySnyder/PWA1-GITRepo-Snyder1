@@ -15,7 +15,8 @@
 		
 		// Trim whitespace from start and end of search query
 		while(query.charAt(0) = " "){
-			query = query.substring(1, query.length);
+			query = query.substring(1, query.length);//unsure about "query"
+
 		};
 		while(query.charAt(query.length-1) === ""){
 			query = query.substring(0, query.length-1);
